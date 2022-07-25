@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(itac.jpg);
+height: 100vh; 
+background-size: cover;
+background-position: center;
+    
+}
+
+ul{
+float: right;
+list-style-type: none;
+margin: 50px;
+
+
+}
+
+ul li{
+display: inline-flex;
+margin: 0px 10px;
+}
+
+ul li a{
+text-decoration: none;
+color: #fff;
+padding: 5px 10px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+
+
+}
+
+ul li a:hover{
+background-color: #fff;
+color: black;
+
+}
+
+.sgnbtn{
+top: 40px ;
+left: 80px;
+position: absolute;
+text-decoration: none;
+color: white;
+border: 2px solid transparent;
+border-radius: 20px;
+}
+.app{
+
+width: 50%;
+height: 30%;
+top: 25%;
+left: 100px;
+position: absolute;
+color: white;
+}
+
+#camera, #camera--view, #camera--sensor, #camera--output{
+    position: fixed;
+    height: 50vh;
+    width: 50%;
+    object-fit: cover;
+}
+#camera--view, #camera--sensor, #camera--output{
+    transform: scaleX(-1);
+    filter: FlipH;
+}
+#camera--trigger{
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 30px;
+    left: calc(50% - 100px);
+}
+.taken{
+    height: 100px!important;
+    width: 100px!important;
+    transition: all 0.5s ease-in;
+    border: solid 3px white;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.new h1{
+font-size: 43px;
+width: 640px;
+position: relative;
+margin-left: 50px;
+}
+
+.new p{
+width: 650px;
+font-size: 15px;
+margin: 30px 0 30px 40px;
+line-height: 25px;
+color: snow;
+
+}
+
+.right{
+font-family: Arial, Helvetica, sans-serif;
+float: right;
+margin-right: -600px;
+}
+.baka{
+display: inline-flex;
+margin: 0px 10px;
+}
+.baka h3 a{
+text-decoration: none;
+color: #fff;
+padding: 4px 8px;
+border: 1px solid transparent;
+transition: 0.6s ease;
+
+}
+.baka h3 a:hover{
+background-color: #fff;
+color: black;
+
+}
+.quick{
+color: aliceblue;
+left: 0;
+bottom:0;
+position: absolute;
+cursor: pointer;
+}
